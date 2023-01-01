@@ -6,9 +6,9 @@ import { useForm } from "react-hook-form";
 import Card from "./components/Card";
 import toast, { Toaster } from "react-hot-toast";
 
-const getAPIURL = "http://localhost:5000/sectors";
-const postUrl = "http://localhost:5000/userInfo";
-const getUserInfoURL = "http://localhost:5000/userInfoGet";
+const getAPIURL = "https://servicesector.onrender.com/sectors";
+const postUrl = "https://servicesector.onrender.com/userInfo";
+const getUserInfoURL = "https://servicesector.onrender.com/userInfoGet";
 function App() {
   const { register, handleSubmit } = useForm();
   const [sectors, setSecotrs] = useState([]);
